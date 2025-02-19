@@ -1,0 +1,12 @@
+name: MonPremierWorkflow
+on: workflow_dispatch
+jobs:
+  firstJob:
+    runs-on: ubuntu-latest
+    steps:
+     - name: MonPremierJob
+       run: echo "Démarrage du job"
+     - name: MesPremieresInstructions
+       run: ls /
+     - name: FinDuPremierJob
+       run: echo "Fin du job"
